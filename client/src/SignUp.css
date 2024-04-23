@@ -1,0 +1,47 @@
+/* SignUp.css */
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://source.unsplash.com/random'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+}
+
+.signup-form input[type='text'],
+.signup-form input[type='email'],
+.signup-form input[type='password'] {
+    border-radius: 0;
+}
+
+.signup-form button {
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.signup-form p {
+    margin-top: 20px;
+}
+
+.signup-form a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}

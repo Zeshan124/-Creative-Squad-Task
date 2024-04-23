@@ -1,0 +1,58 @@
+/* Navbar */
+.navbar {
+  background-color: #444343; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #dddbdb; /* Dark text color */
+}
+
+.navbar-nav .nav-link {
+  color: #a3a0a0; /* Dark text color for links */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #333333; /* Dark color for hamburger icon */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+/* Collapse Navbar */
+.navbar-collapse {
+  justify-content: flex-end; /* Align links to the right */
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    margin-top: 1rem; /* Add spacing on smaller screens */
+  }
+
+  .navbar-collapse {
+    background-color: #ffffff; /* White background when collapsed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for collapsed Navbar */
+  }
+
+  .navbar-nav .nav-link {
+    color: #333333; /* Dark text color for collapsed links */
+    padding: 1rem;
+    border-bottom: 1px solid #dddddd; /* Separator between links */
+  }
+
+  .navbar-nav .nav-link:last-child {
+    border-bottom: none; /* Remove separator on last link */
+  }
+}

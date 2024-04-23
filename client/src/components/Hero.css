@@ -1,0 +1,29 @@
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333333; /* Dark text color */
+  }
+  
+  .hero-section .container {
+    padding: 0 20px; /* Add padding to the container */
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem; /* Larger font size for heading */
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem; /* Larger font size for paragraph */
+  }
+  
+  .hero-section button.btn-primary {
+    background-color: #007bff; /* Blue primary button color */
+    border-color: #007bff; /* Blue button border color */
+    padding: 12px 40px; /* Increase button padding */
+  }
+  
+  .hero-section button.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3; /* Darker border on hover */
+  }
+  
